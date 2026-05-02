@@ -1,8 +1,10 @@
-# 🚨 CrysisSync
+
 
 <p align="center">
   <img src=CrysisSync-main/docs/assets/banner.png />
 </p>
+
+<h1 align="center">🚨 CrysisSync</h1>
 
 <p align="center">
   <b>Real-time emergency coordination platform with instant alerts and multilingual support</b>
@@ -10,10 +12,10 @@
 
 ---
 
-## 🌍 Overview
+<h1 align="center"> Overview</h1>
 
-CrysisSync is a real-time emergency coordination platform designed to help people communicate and respond quickly during crisis situations.
-It enables instant alerts, live updates, and seamless communication across different regions.
+<h4 align= "center">CrysisSync is a real-time emergency coordination platform designed to help people communicate and respond quickly during crisis situations.
+It enables instant alerts, live updates, and seamless communication across different regions.</h4>
 
 ---
 
@@ -31,7 +33,7 @@ It enables instant alerts, live updates, and seamless communication across diffe
 * 📱 Fully responsive design
 * 🔔 Live status updates
 * ⚙️ Scalable architecture
-* 
+  
 ---
 
 ## 🛠️ Tech Stack

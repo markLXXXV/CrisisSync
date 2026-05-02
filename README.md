@@ -1,7 +1,7 @@
 # 🚨 CrysisSync
 
 <p align="center">
-  <img src="docs/assets/banner.png" alt="CrysisSync Banner" width="100%" />
+  <img src=CrysisSync-main/docs/assets/banner.png />
 </p>
 
 <p align="center">
@@ -31,15 +31,7 @@ It enables instant alerts, live updates, and seamless communication across diffe
 * 📱 Fully responsive design
 * 🔔 Live status updates
 * ⚙️ Scalable architecture
-
----
-
-## 📸 Preview
-
-<p align="center">
-  <img src="docs/assets/banner.png" width="100%" />
-</p>
-
+* 
 ---
 
 ## 🛠️ Tech Stack
@@ -80,16 +72,6 @@ npm run build
 ```
 
 Deploy using Vercel.
-
----
-
-## 🧠 Future Improvements
-
-* 📍 Location-based emergency tracking
-* 👥 Role-based access (admin/responders)
-* 🔐 Enhanced security and authentication
-* 📡 Advanced notification system
-
 
 ---
 

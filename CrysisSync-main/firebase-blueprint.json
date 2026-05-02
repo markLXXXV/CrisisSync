@@ -1,0 +1,111 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Tactical responder profile information",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID" },
+        "displayName": { "type": "string" },
+        "email": { "type": "string" },
+        "photoURL": { "type": "string" },
+        "status": { "type": "string", "enum": ["ACTIVE", "OFFLINE", "SOS_ACTIVE"] },
+        "role": { "type": "string", "enum": ["USER", "ADMIN"] },
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "node": { "type": "string" },
+            "encryption": { "type": "string" }
+          }
+        },
+        "lastSeen": { "type": "string", "format": "date-time" },
+        "phone": { "type": "string" },
+        "alternatePhone": { "type": "string" },
+        "address": { "type": "string" },
+        "pronouns": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Incident": {
+      "title": "Incident Record",
+      "description": "Emergency SOS transmission record",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "type": { "type": "string", "enum": ["SOS", "MEDICAL", "THREAT"] },
+        "status": { "type": "string", "enum": ["ACTIVATED", "CANCELLED", "RESOLVED"] },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "location": {
+          "type": "object",
+          "properties": {
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          }
+        },
+        "priority": { "type": "string", "enum": ["LOW", "MEDIUM", "HIGH", "CRITICAL"] }
+      },
+      "required": ["userId", "type", "status", "location"]
+    },
+    "ChatMessage": {
+      "title": "AI Help Message",
+      "description": "Tactical neural link message",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "role": { "type": "string", "enum": ["user", "ai"] },
+        "content": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "role", "content"]
+    },
+    "SafetyCheck": {
+      "title": "Safety Status Update",
+      "description": "User confirmed safe status broadcast",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "status": { "type": "string", "enum": ["SAFE"] },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "type": { "type": "string" }
+      },
+      "required": ["userId", "status"]
+    },
+    "SyncedContact": {
+      "title": "Synced Contact",
+      "description": "Device contact synced for tactical map display",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "lat": { "type": "number" },
+        "lng": { "type": "number" },
+        "syncedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "phone", "lat", "lng"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profile data"
+    },
+    "/incidents/{incidentId}": {
+      "schema": "Incident",
+      "description": "Emergency incident records"
+    },
+    "/users/{userId}/chatHistory/{messageId}": {
+      "schema": "ChatMessage",
+      "description": "Private AI help chat history"
+    },
+    "/safety_checks/{checkId}": {
+      "schema": "SafetyCheck",
+      "description": "Broadcasted safety status records"
+    },
+    "/users/{userId}/contacts/{contactId}": {
+      "schema": "SyncedContact",
+      "description": "User's synced device contacts"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-tactical-red: #ff3e3e;
+  --color-tactical-green: #00ffa3;
+  --color-tactical-bg: #09090b;
+  --color-tactical-card: #121214;
+  --color-tactical-border: #27272a;
+}
+
+@layer base {
+  :root {
+    --background: #09090b;
+    --foreground: #f4f4f5;
+  }
+
+  body {
+    @apply bg-tactical-bg text-zinc-100 antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom leaflet theme */
+.leaflet-container {
+  background: transparent !important;
+}
+
+.leaflet-tile {
+  filter: invert(100%) hue-rotate(180deg) brightness(80%) contrast(90%);
+}
+
+.leaflet-control-attribution {
+  background: rgba(0,0,0,0.5) !important;
+  color: #666 !important;
+}

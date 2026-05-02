@@ -1,0 +1,51 @@
+{
+  "common": {
+    "welcome": "欢迎回来",
+    "create_account": "创建账户",
+    "access_dashboard": "访问战术控制台和实时响应工具。",
+    "join_network": "加入本地应急同步网络。",
+    "google": "通过 Google 继续",
+    "microsoft": "通过 Microsoft 继续",
+    "apple": "通过 Apple 继续",
+    "or": "或",
+    "need_account": "需要新账户？注册",
+    "have_account": "已有账户？登录",
+    "disclaimer": "CrisisSync 使用在活动响应协议期间共享的情境数据。登录即表示您同意本地数据同步。",
+    "syncing": "正在同步安全网格...",
+    "home": "首页",
+    "incidents": "事件",
+    "routes": "路线",
+    "profile": "个人资料",
+    "system": "系统",
+    "live": "直播",
+    "optimal": "最佳"
+  },
+  "emergency": {
+    "sos": "SOS",
+    "hold_to_trigger": "按住以触发",
+    "commencing_sync": "正在开始同步...",
+    "alert_active": "警报已激活",
+    "signal_transmitted": "信号已发送",
+    "responders_notified": "救援人员已收到您的位置通知。如果您已安全，请点击一次以取消警报。",
+    "active": "激活",
+    "high_priority": "高优先级",
+    "gps_tracking": "GPS 追踪",
+    "history": "个人 SOS 历史",
+    "latest": "显示最新发送",
+    "activated": "已激活",
+    "duration": "持续时间",
+    "sending_alerts": "正在发送警报",
+    "hold_tip": "按住 2 秒"
+  },
+  "actions": {
+    "quick_actions": "快速操作",
+    "ai_help": "AI 帮助",
+    "ai_sub": "战术情报线路",
+    "emergency_services": "紧急服务",
+    "services_sub": "全球信号节点",
+    "safety_check": "安全检查",
+    "safety_sub": "广播安全状态",
+    "medical_protocol": "医疗协议",
+    "medical_sub": "急救 AI 指南"
+  }
+}

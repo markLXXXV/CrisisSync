@@ -1,0 +1,70 @@
+{
+  "common": {
+    "welcome": "Welcome Back",
+    "create_account": "Create Account",
+    "access_dashboard": "Access the tactical dashboard and live response tools.",
+    "join_network": "Join the local emergency synchronization network.",
+    "google": "Continue with Google",
+    "microsoft": "Continue with Microsoft",
+    "apple": "Continue with Apple",
+    "or": "OR",
+    "need_account": "Need a new account? Sign Up",
+    "have_account": "Already have an account? Log In",
+    "disclaimer": "CrisisSync uses situational data shared during active response protocols. By signing in, you agree to local data sync.",
+    "syncing": "Syncing Secure Grid...",
+    "home": "Home",
+    "incidents": "Incidents",
+    "routes": "Routes",
+    "profile": "Profile",
+    "system": "System",
+    "live": "Live",
+    "optimal": "Optimal"
+  },
+  "emergency": {
+    "sos": "SOS",
+    "hold_to_trigger": "HOLD TO TRIGGER",
+    "commencing_sync": "COMMENCING SYNC...",
+    "alert_active": "SOS ACTIVATED",
+    "signal_transmitted": "Signal Transmitted",
+    "responders_notified": "Responders have been notified of your location. Tap once to cancel the alert if you are safe.",
+    "active": "Active",
+    "high_priority": "High Priority",
+    "gps_tracking": "GPS Tracking",
+    "history": "Personal SOS History",
+    "latest": "Latest Transmission Shown",
+    "activated": "Activated",
+    "duration": "Duration",
+    "sending_alerts": "SENDING ALERTS",
+    "hold_tip": "HOLD FOR 2 SECONDS"
+  },
+  "actions": {
+    "quick_actions": "Quick Actions",
+    "ai_help": "AI HELP",
+    "ai_sub": "TACTICAL INTELLIGENCE LINE",
+    "emergency_services": "EMERGENCY SERVICES",
+    "services_sub": "GLOBAL SIGNAL NODES",
+    "safety_check": "SAFETY CHECK",
+    "safety_sub": "BROADCAST SAFE STATUS",
+    "medical_protocol": "MEDICAL PROTOCOL",
+    "medical_sub": "FIRST AID AI GUIDE"
+  },
+  "settings": {
+    "language": "Language",
+    "language_sub": "Select your tactical localized dialect",
+    "theme": "Display Theme",
+    "dark": "Tactical Dark",
+    "light": "Standard Light",
+    "security": "Security Configuration",
+    "security_sub": "Device permission synchronization"
+  },
+  "permissions": {
+    "title": "System Configuration",
+    "camera": "Optical Node (Camera)",
+    "mic": "Audio Node (Microphone)",
+    "location": "GPS Sync (Location)",
+    "camera_sub": "Required for scanning visual hazard markers and streaming situational evidence.",
+    "mic_sub": "Essential for voice-to-text distress logs and encrypted comms relay.",
+    "location_sub": "Critical for high-accuracy tactical positioning and responder dispatch.",
+    "apply": "Apply Base Protocols"
+  }
+}

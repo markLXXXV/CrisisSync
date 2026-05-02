@@ -1,0 +1,51 @@
+{
+  "common": {
+    "welcome": "Bienvenido de nuevo",
+    "create_account": "Crear cuenta",
+    "access_dashboard": "Acceda al panel táctico y a las herramientas de respuesta en vivo.",
+    "join_network": "Únase a la red local de sincronización de emergencias.",
+    "google": "Continuar con Google",
+    "microsoft": "Continuar con Microsoft",
+    "apple": "Continuar con Apple",
+    "or": "O",
+    "need_account": "¿Necesita una cuenta? Registrarse",
+    "have_account": "¿Ya tiene una cuenta? Iniciar sesión",
+    "disclaimer": "CrisisSync utiliza datos compartidos durante los protocolos de respuesta activa. Al iniciar sesión, acepta la sincronización de datos locales.",
+    "syncing": "Sincronizando red segura...",
+    "home": "Inicio",
+    "incidents": "Incidentes",
+    "routes": "Rutas",
+    "profile": "Perfil",
+    "system": "Sistema",
+    "live": "En vivo",
+    "optimal": "Óptimo"
+  },
+  "emergency": {
+    "sos": "SOS",
+    "hold_to_trigger": "MANTENER PARA ACTIVAR",
+    "commencing_sync": "INICIANDO SINCRONIZACIÓN...",
+    "alert_active": "ALERTA ACTIVA",
+    "signal_transmitted": "Señal transmitida",
+    "responders_notified": "Los socorristas han sido notificados de su ubicación. Toque una vez para cancelar la alerta si está a salvo.",
+    "active": "Activo",
+    "high_priority": "Prioridad alta",
+    "gps_tracking": "Rastreo GPS",
+    "history": "Historial personal de SOS",
+    "latest": "Última transmisión mostrada",
+    "activated": "Activado",
+    "duration": "Duración",
+    "sending_alerts": "ENVIANDO ALERTAS",
+    "hold_tip": "MANTENER POR 2 SEGUNDOS"
+  },
+  "actions": {
+    "quick_actions": "Acciones rápidas",
+    "ai_help": "AYUDA IA",
+    "ai_sub": "LÍNEA DE INTELIGENCIA TÁCTICA",
+    "emergency_services": "SERVICIOS DE EMERGENCIA",
+    "services_sub": "NODOS DE SEÑAL GLOBAL",
+    "safety_check": "CONTROL DE SEGURIDAD",
+    "safety_sub": "TRANSMITIR ESTADO SEGURO",
+    "medical_protocol": "PROTOCOLO MÉDICO",
+    "medical_sub": "GUÍA DE IA DE PRIMEROS AUXILIOS"
+  }
+}

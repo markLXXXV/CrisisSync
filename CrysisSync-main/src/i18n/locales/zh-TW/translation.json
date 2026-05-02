@@ -1,0 +1,51 @@
+{
+  "common": {
+    "welcome": "歡迎回來",
+    "create_account": "建立帳戶",
+    "access_dashboard": "訪問戰術控制台和實時響應工具。",
+    "join_network": "加入本地應急同步網絡。",
+    "google": "通過 Google 繼續",
+    "microsoft": "通過 Microsoft 繼續",
+    "apple": "通過 Apple 继续",
+    "or": "或",
+    "need_account": "需要新帳戶？註冊",
+    "have_account": "已有帳戶？登錄",
+    "disclaimer": "CrisisSync 使用在活動響應協議期間共享的情境數據。登錄即表示您同意本地數據同步。",
+    "syncing": "正在同步安全網格...",
+    "home": "首頁",
+    "incidents": "事件",
+    "routes": "路線",
+    "profile": "個人資料",
+    "system": "系統",
+    "live": "直播",
+    "optimal": "最佳"
+  },
+  "emergency": {
+    "sos": "SOS",
+    "hold_to_trigger": "按住以觸發",
+    "commencing_sync": "正在開始同步...",
+    "alert_active": "警報已激活",
+    "signal_transmitted": "信號已發送",
+    "responders_notified": "救援人員已收到您的位置通知。如果您已安全，請點擊一次以取消警報。",
+    "active": "激活",
+    "high_priority": "高優先級",
+    "gps_tracking": "GPS 追蹤",
+    "history": "個人 SOS 歷史",
+    "latest": "顯示最新發送",
+    "activated": "已激活",
+    "duration": "持續時間",
+    "sending_alerts": "正在發送警報",
+    "hold_tip": "按住 2 秒"
+  },
+  "actions": {
+    "quick_actions": "快速操作",
+    "ai_help": "AI 幫助",
+    "ai_sub": "戰術情報線路",
+    "emergency_services": "緊急服務",
+    "services_sub": "全球信號節點",
+    "safety_check": "安全檢查",
+    "safety_sub": "廣播安全狀態",
+    "medical_protocol": "醫療協議",
+    "medical_sub": "急救 AI 指南"
+  }
+}

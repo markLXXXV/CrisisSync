@@ -1,0 +1,10 @@
+{
+  "name": "CrisisSync",
+  "description": "Tactical emergency response and synchronization platform with AI-powered crisis assistance and unified evacuation mapping.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": []
+}

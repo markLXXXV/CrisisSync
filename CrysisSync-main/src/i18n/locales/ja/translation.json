@@ -1,0 +1,51 @@
+{
+  "common": {
+    "welcome": "おかえりなさい",
+    "create_account": "アカウント作成",
+    "access_dashboard": "戦術ダッシュボードと実況応答ツールにアクセスします。",
+    "join_network": "地域の緊急同期ネットワークに参加します。",
+    "google": "Googleで続行",
+    "microsoft": "Microsoftで続行",
+    "apple": "Appleで続行",
+    "or": "または",
+    "need_account": "アカウントをお持ちでないですか？ サインアップ",
+    "have_account": "既にアカウントをお持ちですか？ ログイン",
+    "disclaimer": "CrisisSyncは、アクティブな応答プロトコル中に共有された状況データを使用します。サインインすることにより、ローカルデータの同期に同意したことになります。",
+    "syncing": "セキュアグリッドを同期中...",
+    "home": "ホーム",
+    "incidents": "事案",
+    "routes": "経路",
+    "profile": "プロフィール",
+    "system": "システム",
+    "live": "ライブ",
+    "optimal": "最適"
+  },
+  "emergency": {
+    "sos": "SOS",
+    "hold_to_trigger": "長押しで起動",
+    "commencing_sync": "同期を開始中...",
+    "alert_active": "アラート有効",
+    "signal_transmitted": "信号送信済み",
+    "responders_notified": "救助隊に現在地が通知されました。安全な場合は、一度タップしてアラートをキャンセルしてください。",
+    "active": "アクティブ",
+    "high_priority": "優先度高",
+    "gps_tracking": "GPS追跡",
+    "history": "SOS履歴",
+    "latest": "最新の送信を表示中",
+    "activated": "起動済み",
+    "duration": "持続時間",
+    "sending_alerts": "アラート送信中",
+    "hold_tip": "2秒間長押し"
+  },
+  "actions": {
+    "quick_actions": "クイックアクション",
+    "ai_help": "AIヘルプ",
+    "ai_sub": "戦術インテリジェンスライン",
+    "emergency_services": "緊急サービス",
+    "services_sub": "グローバル信号ノード",
+    "safety_check": "安否確認",
+    "safety_sub": "安全ステータスを放送",
+    "medical_protocol": "医療プロトコル",
+    "medical_sub": "応急処置AIガイド"
+  }
+}
